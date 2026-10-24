@@ -18,8 +18,10 @@ https://raw.githubusercontent.com/cmbya/ipa-source/main/apps.json
 
 ## 来源与许可
 
-每个镜像 Release 附 `LICENSE-upstream.txt` 和 `PROVENANCE.txt`，列出上游发布页、附件和 SHA-256。源中的应用说明也包含上游地址。未明确允许再分发或尚未满足源码义务的项目暂不公开镜像。
+所有 IPA 集中在一个固定 Release（current）。各应用的 `LICENSE-upstream.txt`、`PROVENANCE.txt`、对应源码及构建说明均收纳在 `Sources-and-Licenses.zip` 中，按安装包身份分目录，未删除许可和来源材料。`PROVENANCE.txt` 列出上游发布页、附件和 SHA-256；源中的应用说明也包含上游地址。`SHA256SUMS.txt` 提供发布附件的校验值。未明确允许再分发或尚未满足源码义务的项目暂不公开镜像。
+
+`autobcb/qysg`（轻悦时光）目前因未确认公开再分发许可而跳过，并非未匹配到 IPA。
 
 软件源目录由独立同步程序维护。关注列表、通知记录和凭据不在本公开仓库中发布。`state/mirror.json` 仅记录已经公开镜像的安装包信息。
 
-旧 Release 不自动删除。移出关注范围后不再出现在当前源中，但历史安装包保留。若发现侵权或安全问题，请提交 Issue 说明。
+原六个独立 Release 已在备份、迁移和验证后合并删除；后续同步只更新固定 Release。移出关注范围后不再出现在当前源中，暂不自动清理历史安装包。若发现侵权或安全问题，请提交 Issue 说明。
