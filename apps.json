@@ -25,6 +25,116 @@
           "localizedDescription": "## MR 2609127\n\n**打包类型**: 测试版 (dev)\n\n**构建日期**: 2026-09-12\n\n**版本号**: 26.0912.7（pubspec.yaml 格式）\n\n**构建号**: 1789193740\n\n---\n\n### Android\n- `.apk` 文件直接安装\n- `.zip` 文件为压缩包，解压后安装\n- 安装方法：下载 APK → 允许未知来源 → 安装\n\n### iOS\n- `.ipa` 文件需通过侧载工具安装（AltStore/Sideloadly/TrollStore）\n- 未签名版本，需自签或使用侧载工具\n- 安装方法：下载 IPA → 使用侧载工具安装\n\n### HarmonyOS（鸿蒙）\n- `.hap` 文件为鸿蒙安装包\n- 安装方法：通过 hdc 工具安装 `hdc install xxx.hap`，或推送到设备后用文件管理器安装\n- 需在鸿蒙系统设置中允许未知来源应用安装\n\n\n\n上游：https://github.com/DandanLLab/mr\n发布：https://github.com/DandanLLab/mr/releases/tag/v2609127-dev\n附件：mr_v2609127_dev_2026-09-12_ios.ipa\nSHA-256：c947783a1d154379731a9b498d01dd79ccf898eb9fc36e2c82b2483940847617\n许可：MIT\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n"
         }
       ]
+    },
+    {
+      "name": "Pure Live",
+      "bundleIdentifier": "com.mystyle.purelive.liu",
+      "version": "3.1.19",
+      "buildNumber": "4108",
+      "minOSVersion": "15.6",
+      "developerName": "liuchuancong",
+      "beta": false,
+      "iconURL": "https://github.com/liuchuancong.png",
+      "localizedDescription": "上游：https://github.com/liuchuancong/pure_live\n发布：https://github.com/liuchuancong/pure_live/releases/tag/v3.1.19\n附件：PureLive-3.1.19-4108-ios-arm64-trollstore.ipa\nSHA-256：81f32db0a967bb7687ca33c75272f04e9c56357104907050134b4043500a1691\n许可：AGPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-6832bc41038da1e1ce3f2013\n对应提交由上游Release BUILD_METADATA.json确认。使用Flutter3.47.7及Xcode26，按.github/workflows/build_pure_live_release.yml iOS任务构建和打包。镜像保留TrollStore IPA原始格式，LiveContainer兼容性未验证。\n",
+      "versions": [
+        {
+          "version": "3.1.19",
+          "buildNumber": "4108",
+          "date": "2026-10-10T04:32:55Z",
+          "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-6832bc41038da1e1ce3f2013/PureLive-3.1.19-4108-ios-arm64-trollstore.ipa",
+          "size": 66858114,
+          "sha256": "81f32db0a967bb7687ca33c75272f04e9c56357104907050134b4043500a1691",
+          "localizedDescription": "# 纯粹直播 v3.1.19\n|版本|下载地址|\n|---|---|\n|TV版|[pure_live_TV](https://github.com/liuchuancong/pure_live_TV/releases/latest)|\n|Windows/macOS/Android/iOS版|[pure_live](https://github.com/liuchuancong/pure_live/releases/latest)|\n### 🖥️ Windows 版\n- **Portable ZIP**：解压即用，无需安装\n- **EXE 安装包**：适合所有用户\n- **MSIX 包**：现代应用格式，支持干净卸载\n- 适配：Windows 10/11 x64\n### 🍎 macOS 版\n- macOS 桌面版\n- Universal：Apple Silicon + Intel\n- ZIP / DMG\n### 📱 Android 版\n- Android 8.0+（API 26，FFmpegKit 录制依赖要求）\n- ARM64-v8a\n- ARMv7\n- x86_64\n- 统一 SHA256 校验文件：[**ANDROID_SHA256SUM.txt**](https://github.com/liuchuancong/pure_live/releases/download/v3.1.19/ANDROID_SHA256SUM.txt)\n### 🐧 Linux 版\n- Linux x64\n- **DEB 安装包**：适合 Debian/Ubuntu 及其衍生发行版\n- **Portable ZIP / tar.gz**：解压即用，无需安装\n### 🍎 iOS 版\n- unsigned iOS device application\n- TrollStore / ad-hoc IPA\n- ARM64\n### 🔧 Build Metadata\n[**BUILD_METADATA.json**](https://github.com/liuchuancong/pure_live/releases/download/v3.1.19/BUILD_METADATA.json)\n### 📝 本次更新\nversion: 3.1.19\n版本更新：\n- 修复部分bug\n\n上游：https://github.com/liuchuancong/pure_live\n发布：https://github.com/liuchuancong/pure_live/releases/tag/v3.1.19\n附件：PureLive-3.1.19-4108-ios-arm64-trollstore.ipa\nSHA-256：81f32db0a967bb7687ca33c75272f04e9c56357104907050134b4043500a1691\n许可：AGPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-6832bc41038da1e1ce3f2013\n对应提交由上游Release BUILD_METADATA.json确认。使用Flutter3.47.7及Xcode26，按.github/workflows/build_pure_live_release.yml iOS任务构建和打包。镜像保留TrollStore IPA原始格式，LiveContainer兼容性未验证。\n"
+        }
+      ]
+    },
+    {
+      "name": "FuoEvolve",
+      "bundleIdentifier": "org.feeluown.mobile",
+      "version": "1.6.3",
+      "buildNumber": "1",
+      "minOSVersion": "15.0",
+      "developerName": "cmbya",
+      "beta": true,
+      "iconURL": "https://github.com/cmbya.png",
+      "localizedDescription": "上游：https://github.com/cmbya/FuoEvolve-iOS\n发布：https://github.com/cmbya/FuoEvolve-iOS/releases/tag/1.6.3\n附件：FuoEvolve-1.6.3-iOS-unsigned.ipa\nSHA-256：e9bafbbc9edbd013723e72048313aa85d326d3fface40f84e372182b954a3133\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-8b96cf17ce2233fb81d58620\n源码为feeluown/FuoEvolve固定提交，补丁与构建脚本为cmbya/FuoEvolve-iOS固定提交。按构建仓库.github/workflows/build-ipa.yml：设置上游版本1.6.3、更新Info.plist版本，执行scripts/patch-provider-login.py和scripts/prepare-icon.py，再用JDK17及Xcode26.6执行scripts/build-ipa.sh；源码包内保留完整工作流及工具版本说明。用户允许再分发其构建材料和修改，仍遵循上游GPL-3.0。\n",
+      "versions": [
+        {
+          "version": "1.6.3",
+          "buildNumber": "1",
+          "date": "2026-10-17T15:57:44Z",
+          "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-8b96cf17ce2233fb81d58620/FuoEvolve-1.6.3-iOS-unsigned.ipa",
+          "size": 20072327,
+          "sha256": "e9bafbbc9edbd013723e72048313aa85d326d3fface40f84e372182b954a3133",
+          "localizedDescription": "未签名 iPhone ARM64 IPA。包含 iOS 图标及网页登录修复，真机登录功能待用户验证。\n\nupstream=feeluown/FuoEvolve\ncommit=23623f20871af9f7d556f80e69b0ef954ccb266c\nXcode 26.6\nBuild version 17F113\nopenjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode)\n\n上游：https://github.com/cmbya/FuoEvolve-iOS\n发布：https://github.com/cmbya/FuoEvolve-iOS/releases/tag/1.6.3\n附件：FuoEvolve-1.6.3-iOS-unsigned.ipa\nSHA-256：e9bafbbc9edbd013723e72048313aa85d326d3fface40f84e372182b954a3133\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-8b96cf17ce2233fb81d58620\n源码为feeluown/FuoEvolve固定提交，补丁与构建脚本为cmbya/FuoEvolve-iOS固定提交。按构建仓库.github/workflows/build-ipa.yml：设置上游版本1.6.3、更新Info.plist版本，执行scripts/patch-provider-login.py和scripts/prepare-icon.py，再用JDK17及Xcode26.6执行scripts/build-ipa.sh；源码包内保留完整工作流及工具版本说明。用户允许再分发其构建材料和修改，仍遵循上游GPL-3.0。\n"
+        }
+      ]
+    },
+    {
+      "name": "Mori",
+      "bundleIdentifier": "com.mori.downloader",
+      "version": "4.5.1",
+      "buildNumber": "22",
+      "minOSVersion": "14.0",
+      "developerName": "coflyn",
+      "beta": false,
+      "iconURL": "https://github.com/coflyn.png",
+      "localizedDescription": "上游：https://github.com/coflyn/Mori\n发布：https://github.com/coflyn/Mori/releases/tag/v4.5.1\n附件：Mori-v4.5.1-iOS-Unsigned.ipa\nSHA-256：8ca33f3c06a29cc8c7886768e38b28138209438558a017c1c1655cbcc28be07c\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-c9910d870579e84dab2989ec\n按.github/workflows/build-mobile.yml的iOS任务使用Node和Xcode：npm ci，npx cap sync ios，xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Release -sdk iphoneos archive CODE_SIGNING_ALLOWED=NO，再将App.app打包进Payload。\n",
+      "versions": [
+        {
+          "version": "4.5.1",
+          "buildNumber": "22",
+          "date": "2026-10-18T23:48:43Z",
+          "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-c9910d870579e84dab2989ec/Mori-v4.5.1-iOS-Unsigned.ipa",
+          "size": 2099521,
+          "sha256": "8ca33f3c06a29cc8c7886768e38b28138209438558a017c1c1655cbcc28be07c",
+          "localizedDescription": "What's New in v4.5.1\r\n\r\n- Automatic System Language Detection: Automatically detects device and browser language on first launch via navigator.languages / navigator.language and maps to 9 supported locales (Simplified Chinese, Indonesian, Japanese, Korean, Arabic, Russian, Tagalog, Hindi, and English fallback) (#17)\r\n- Android Share Sheet Locale Fallback: Added native Locale.getDefault() language detection in ShareActivity.java so shared links match device language even before app initialization\r\n- Gallery Tab Visibility Toggle: Added toggle to show or hide the Gallery tab under Settings -> Appearance (mori_show_gallery), completely bypassing background disk scans to save RAM and battery on lower-end devices\r\n- TikTok tt.site Shortlink Recognition: Added automatic recognition and URL cleaning for TikTok tt.site shortlink domains across single downloads, batch downloads, and share activities\r\n- Multilingual Gallery Localization: Fully localized gallery filter chips, sort options, and action toasts across all 9 supported languages\r\n- Progressive Gallery Rendering: Implemented incremental batch rendering (24 items per batch) with IntersectionObserver sentinel for smooth, lag-free scrolling across large media collections\r\n- O(1) History Map Indexing: Replaced linear history scans with constant-time Map indexing, prioritizing cached history thumbnails before requesting native video frame decodes\r\n- CSS content-visibility Optimization: Applied content-visibility: auto to gallery cards to skip layout and painting of offscreen elements, significantly reducing GPU and memory overhead\r\n- On-Demand PDF Library Loading: Converted pdf-lib and pdf.js to lazy-load on demand, eliminating heavy synchronous script tags from index.html for faster app cold start\r\n- Android R8 & Resource Shrinking: Enabled full R8 code minification and resource shrinking in Android build.gradle with refined ProGuard rules for a leaner, smaller APK footprint\r\n- Desktop Tauri Release Profile: Configured compiler release profile in Cargo.toml (opt-level = \"z\", LTO, symbol stripping, codegen-units = 1) to reduce desktop binary size and optimize runtime execution\r\n- High-Resolution Documentation Assets: Converted all preview screenshots to crisp WebP format and added Mori CLI terminal mockups to project documentation\n上游：https://github.com/coflyn/Mori\n发布：https://github.com/coflyn/Mori/releases/tag/v4.5.1\n附件：Mori-v4.5.1-iOS-Unsigned.ipa\nSHA-256：8ca33f3c06a29cc8c7886768e38b28138209438558a017c1c1655cbcc28be07c\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-c9910d870579e84dab2989ec\n按.github/workflows/build-mobile.yml的iOS任务使用Node和Xcode：npm ci，npx cap sync ios，xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Release -sdk iphoneos archive CODE_SIGNING_ALLOWED=NO，再将App.app打包进Payload。\n"
+        }
+      ]
+    },
+    {
+      "name": "sky-tv",
+      "bundleIdentifier": "io.github.sky22333.skytv",
+      "version": "1.0.0",
+      "buildNumber": "1",
+      "minOSVersion": "15.0",
+      "developerName": "sky22333",
+      "beta": false,
+      "iconURL": "https://github.com/sky22333.png",
+      "localizedDescription": "上游：https://github.com/sky22333/sky-tv\n发布：https://github.com/sky22333/sky-tv/releases/tag/v1.0.3\n附件：sky-tv-ios-arm64-unsigned.ipa\nSHA-256：bf12a577c47ed8f49c8434e3ffc720dc245b26d63383767f7c0ab3119ba1fd90\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-d09e6b0be31dd8f18e9aa6f8\n按源码包.github/workflows/release.yml的iOS任务准备Flutter和依赖，执行flutter build ios --release --no-codesign，再按工作流打包Payload。依赖锁定材料在pubspec.lock和ios目录。\n",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildNumber": "1",
+          "date": "2026-10-03T04:30:08Z",
+          "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-d09e6b0be31dd8f18e9aa6f8/sky-tv-ios-arm64-unsigned.ipa",
+          "size": 17090693,
+          "sha256": "bf12a577c47ed8f49c8434e3ffc720dc245b26d63383767f7c0ab3119ba1fd90",
+          "localizedDescription": "sky-tv 构建产物。\n\n构建结果：\n- Android: success\n- Windows: success\n- Linux: success\n- macOS: success\n- iOS: success\n\n上游：https://github.com/sky22333/sky-tv\n发布：https://github.com/sky22333/sky-tv/releases/tag/v1.0.3\n附件：sky-tv-ios-arm64-unsigned.ipa\nSHA-256：bf12a577c47ed8f49c8434e3ffc720dc245b26d63383767f7c0ab3119ba1fd90\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-d09e6b0be31dd8f18e9aa6f8\n按源码包.github/workflows/release.yml的iOS任务准备Flutter和依赖，执行flutter build ios --release --no-codesign，再按工作流打包Payload。依赖锁定材料在pubspec.lock和ios目录。\n"
+        }
+      ]
+    },
+    {
+      "name": "AirBeep",
+      "bundleIdentifier": "com.linkpass888.airbeep",
+      "version": "2.5.2",
+      "buildNumber": "10",
+      "minOSVersion": "18.0",
+      "developerName": "LinkPass888",
+      "beta": false,
+      "iconURL": "https://github.com/LinkPass888.png",
+      "localizedDescription": "上游：https://github.com/LinkPass888/AirBeep\n发布：https://github.com/LinkPass888/AirBeep/releases/tag/v2.5.2\n附件：airbeep-v2.5.2-unsigned.ipa\nSHA-256：c7eff1f8613535d4ac04caa40241add4c0acd59190a134d024788531ee97afe9\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-ec2030c50b1161aca71f72a6\n按源码包.github/workflows/release-unsigned.yml在macOS选择Xcode，以airbeep.xcodeproj的airbeep scheme构建Release未签名归档并打包IPA。\n",
+      "versions": [
+        {
+          "version": "2.5.2",
+          "buildNumber": "10",
+          "date": "2026-10-19T11:35:11Z",
+          "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-ec2030c50b1161aca71f72a6/airbeep-v2.5.2-unsigned.ipa",
+          "size": 5880046,
+          "sha256": "c7eff1f8613535d4ac04caa40241add4c0acd59190a134d024788531ee97afe9",
+          "localizedDescription": "## [2.5.2] - 2026-10-19\r\n\r\n### English / Added\r\n- **Check tone status button.** The current tone state can now be checked on\r\n  demand from the home screen. The read channel is unreliable on some iOS\r\n  releases (the AirTraffic move step never completes there), so the check\r\n  reports one of three outcomes: silenced, originals still in place, or\r\n  unverifiable on this device. It never runs automatically and never gates an\r\n  operation.\r\n\r\n### English / Changed\r\n- After silencing, the success alert no longer claims a verified result when\r\n  the read-back could not confirm it; it says the silence was written but\r\n  unverified and points at the tone status check. This covers the\r\n  [issue #6](https://github.com/LinkPass888/AirBeep/issues/6) report where the\r\n  write channel returns success on iOS 27.x while the tones never change.\r\n\r\n---\r\n\r\n### 中文 / 新增\r\n- **校验提示音状态按钮。** 可在首页按需检测当前提示音状态。部分 iOS 版本上\r\n  读取通道不可靠（AirTraffic 搬运步骤始终无法完成），因此检测结果分为三种：\r\n  已静音、原始提示音仍在、本机无法校验。该检测绝不自动运行，也不会阻断\r\n  任何操作。\r\n\r\n### 中文 / 变更\r\n- 静音后的成功弹窗在回读校验无法确认时不再直接宣称成功，改为提示\"静音\r\n  已写入、结果未经校验\"，并引导使用提示音状态校验。对应\r\n  [issue #6](https://github.com/LinkPass888/AirBeep/issues/6) 反馈的\r\n  iOS 27.x 上写入通道返回成功但提示音实际未变的问题。\r\n\r\n**Full Changelog**: https://github.com/LinkPass888/AirBeep/compare/v2.5.1...v2.5.2\n上游：https://github.com/LinkPass888/AirBeep\n发布：https://github.com/LinkPass888/AirBeep/releases/tag/v2.5.2\n附件：airbeep-v2.5.2-unsigned.ipa\nSHA-256：c7eff1f8613535d4ac04caa40241add4c0acd59190a134d024788531ee97afe9\n许可：GPL-3.0\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n对应源码与构建材料：https://github.com/cmbya/ipa-source/releases/tag/ipa-ec2030c50b1161aca71f72a6\n按源码包.github/workflows/release-unsigned.yml在macOS选择Xcode，以airbeep.xcodeproj的airbeep scheme构建Release未签名归档并打包IPA。\n"
+        }
+      ]
     }
   ]
 }
