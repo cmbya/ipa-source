@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "entries": {
+    "16a918805a1d5aa7c61d863d2701a0acae1ac695d453ec9782e26852d9f568b4": {
+      "key": "16a918805a1d5aa7c61d863d2701a0acae1ac695d453ec9782e26852d9f568b4",
+      "repo": "DandanLLab/mr",
+      "asset_name": "mr_v2609127_dev_2026-09-12_ios.ipa",
+      "sha256": "c947783a1d154379731a9b498d01dd79ccf898eb9fc36e2c82b2483940847617",
+      "upstream_release": "https://github.com/DandanLLab/mr/releases/tag/v2609127-dev",
+      "app": {
+        "name": "MR",
+        "bundleIdentifier": "com.mr.app",
+        "version": "26.0912.7",
+        "buildNumber": "1789193740",
+        "minOSVersion": "16.0",
+        "developerName": "DandanLLab",
+        "beta": true,
+        "iconURL": "https://github.com/DandanLLab.png",
+        "localizedDescription": "上游：https://github.com/DandanLLab/mr\n发布：https://github.com/DandanLLab/mr/releases/tag/v2609127-dev\n附件：mr_v2609127_dev_2026-09-12_ios.ipa\nSHA-256：c947783a1d154379731a9b498d01dd79ccf898eb9fc36e2c82b2483940847617\n许可：MIT\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n",
+        "versions": [
+          {
+            "version": "26.0912.7",
+            "buildNumber": "1789193740",
+            "date": "2026-09-12T06:24:42Z",
+            "downloadURL": "https://github.com/cmbya/ipa-source/releases/download/ipa-16a918805a1d5aa7c61d863d/mr_v2609127_dev_2026-09-12_ios.ipa",
+            "size": 20996360,
+            "sha256": "c947783a1d154379731a9b498d01dd79ccf898eb9fc36e2c82b2483940847617",
+            "localizedDescription": "## MR 2609127\n\n**打包类型**: 测试版 (dev)\n\n**构建日期**: 2026-09-12\n\n**版本号**: 26.0912.7（pubspec.yaml 格式）\n\n**构建号**: 1789193740\n\n---\n\n### Android\n- `.apk` 文件直接安装\n- `.zip` 文件为压缩包，解压后安装\n- 安装方法：下载 APK → 允许未知来源 → 安装\n\n### iOS\n- `.ipa` 文件需通过侧载工具安装（AltStore/Sideloadly/TrollStore）\n- 未签名版本，需自签或使用侧载工具\n- 安装方法：下载 IPA → 使用侧载工具安装\n\n### HarmonyOS（鸿蒙）\n- `.hap` 文件为鸿蒙安装包\n- 安装方法：通过 hdc 工具安装 `hdc install xxx.hap`，或推送到设备后用文件管理器安装\n- 需在鸿蒙系统设置中允许未知来源应用安装\n\n\n\n上游：https://github.com/DandanLLab/mr\n发布：https://github.com/DandanLLab/mr/releases/tag/v2609127-dev\n附件：mr_v2609127_dev_2026-09-12_ios.ipa\nSHA-256：c947783a1d154379731a9b498d01dd79ccf898eb9fc36e2c82b2483940847617\n许可：MIT\n原样镜像，未签名、未修改，未验证LiveContainer运行兼容性。\n"
+          }
+        ]
+      }
+    }
+  }
+}
